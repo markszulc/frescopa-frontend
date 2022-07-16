@@ -3,7 +3,7 @@ name: Cloud Manager Sync from GitHub
 env:
   USER_NAME: Mark Szulc
   USER_EMAIL: mszulc@adobe.com
-  MAIN_REPOSITORY: git.cloudmanager.adobe.com/mark-szulc/fe-frescopa/
+  MAIN_REPOSITORY: git.cloudmanager.adobe.com/mark-szulc/lothal-frontend-frescopa/
   CMGITUSERNAME: mszulc-adobe-com
  
 # Only run on a push to this branch
@@ -38,7 +38,7 @@ jobs:
       # Checkout the main project
       - name: Checkout main project
         run: 
-          git clone https://mszulc-adobe-com:${{secrets.CM_PASS}}@git.cloudmanager.adobe.com/mark-szulc/lothal-frontend-frescopa master
+          git clone https://mszulc-adobe-com:hgjg@git.cloudmanager.adobe.com/mark-szulc/lothal-frontend-frescopa/ master
       # Move sub project
       - name: Move project to main
         run: |
