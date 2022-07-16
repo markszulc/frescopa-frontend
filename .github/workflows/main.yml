@@ -3,7 +3,7 @@ name: Cloud Manager Sync from GitHub
 env:
   USER_NAME: Mark Szulc
   USER_EMAIL: mszulc@adobe.com
-  MAIN_REPOSITORY: git.cloudmanager.adobe.com/mark-szulc/lothal-frontend-frescopa/
+  MAIN_REPOSITORY: git.cloudmanager.adobe.com/mark-szulc/fe-frescopa/
   CMGITUSERNAME: mszulc-adobe-com
  
 # Only run on a push to this branch
