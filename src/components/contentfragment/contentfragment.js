@@ -14,6 +14,7 @@
         responsiveGridEl.querySelectorAll(".cfoffer .cmp-contentfragment[data-cmp-contentfragment-model=\"frescopa-template/models/offer\"]:not([data-cmp-offer-processed='true'])").forEach(function (cf) {
             // Mark the content fragment as processed, since we don't want to accidentally apply the JS adjustments multiple times
             cf.setAttribute("data-cmp-offer-processed", true);
+            console.log("found one");
 
             // Adjust the DOM, in this case injecting an img node and settings its source to the the content fragment's picture URL
             var cfEls = cf.querySelector('.cmp-contentfragment__elements');
