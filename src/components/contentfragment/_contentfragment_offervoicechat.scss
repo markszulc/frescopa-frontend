@@ -1,0 +1,58 @@
+.cmp-contentfragment {}
+
+.cfoffervoicechat {
+
+    background-color: grey;
+
+    .cmp-contentfragment__title {
+        display: none;
+        
+    }
+
+    .cmp-contentfragment__description {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--heroImage {
+        display: none;
+    }
+
+    .cmp-contentfragment__element-title {
+        display: none;
+    }
+    .cmp-contentfragment__elements {
+        color: #467C90;
+    }
+
+    .cmp-contentfragment__element-value {
+        margin: 0;
+    }
+
+    .cmp-contentfragment__element--pretitle {
+        order: 1;
+    }
+
+    .cmp-contentfragment__element--detail {
+        order: 2;
+    }
+
+    .cmp-contentfragment__element--termsConditions {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--headline {
+        order: 3;
+
+        .cmp-contentfragment__element-value {
+         }
+    }
+
+    .cmp-contentfragment__element--ctaUrl {
+        display: none;
+    }
+
+    .cmp-contentfragment__element--callToAction {
+         order: 4;
+    }
+
+}
