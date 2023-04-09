@@ -1,4 +1,4 @@
-# Site Theme
+# Frescopa Site Theme
 
 This is the theme of the standard site template for Adobe Experience Manager (AEM).
 
