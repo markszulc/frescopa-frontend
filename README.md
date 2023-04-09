@@ -28,3 +28,5 @@ npm run live
 ```
 
 4. Once your work is completed, check your changes into your [git repository](https://www.adobe.com/go/aem_qsc_retrieve_access_en) and [deploy your customized theme](https://www.adobe.com/go/aem_qsc_deploy_theme_en).
+
+
