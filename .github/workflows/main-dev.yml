@@ -1,5 +1,5 @@
   
-name: Cloud Manager Sync from GitHub
+name: Cloud Manager (Dev) Sync from GitHub
 env:
   USER_NAME: Mark Szulc
   USER_EMAIL: mszulc@adobe.com
@@ -45,7 +45,7 @@ jobs:
           rm -rf main/*
           mv sub/* main/
           rm -rf sub
-      - name: Commit Changes
+      - name: Commit Changes to Cloud Manager Dev Repo
         run: |        
           git -C main add --all
           git -C main commit -F ../commit.txt
