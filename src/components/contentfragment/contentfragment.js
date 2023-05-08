@@ -23,7 +23,7 @@
         
             if (assetPath && assetPath.indexOf("/content/dam/") === 0) {
                 cfEls.style.backgroundImage='url(' + assetPath + ')'; // specify the image path here
-                cfEls.insertBefore(pictureEl, cfEls.querySelector(".cmp-contentfragment__element--headline"));
+          //      cfEls.insertBefore(pictureEl, cfEls.querySelector(".cmp-contentfragment__element--headline"));
             }
         });
     }
