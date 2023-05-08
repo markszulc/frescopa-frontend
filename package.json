@@ -10,14 +10,14 @@
     "live": "npm-run-all -p watch proxy"
   },
   "dependencies": {
-     "@adobe/aem-headless-client-js": "^3.0.0",
+    "@adobe/aem-headless-client-js": "^3.0.0",
     "google-map-react": "^2.1.10",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
-},
+    "react-scripts": "^5.0.1"
+  },
   "devDependencies": {
-    "@adobe/aem-site-theme-builder": "5.2.1",
+    "@adobe/aem-site-theme-builder": "5.3.0",
     "@parcel/transformer-sass": "^2.0.1",
     "autoprefixer": "^10.3.7",
     "browser-sync": "^2.26.13",
